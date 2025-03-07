@@ -1,0 +1,43 @@
+/* shadow-lg min-h-[300px] bg-indigo-600 text-white    shadow-indigo-300 mx-5 hover:shadow-indigo-500 rounded-xl border py-3 */
+
+.div1{
+    position: relative;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(124, 164, 220, 0.2), 0 6px 20px 0 rgba(119, 64, 237, 0.19);
+    margin-left: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.div1:hover{
+    box-shadow: 0 9px 12px 0 rgba(5, 101, 235, 0.2), 0 7px 27px 0 rgba(119, 64, 237, 0.19);
+}
+
+.div1::before{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 160%;
+    /* border: 5px dashed red; */
+    background: linear-gradient(#00ccff,#f900b2d2);
+    animation: rotate 4s linear infinite ;
+    
+}
+ .div1::after {
+    content: '';
+    position: absolute;
+    background-color: #0e1538;
+    inset: 5px;
+    border-radius:8px;
+ }
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

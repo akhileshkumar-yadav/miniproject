@@ -15,8 +15,9 @@ const cors = require('cors')
 
 const UserRouter = require('./routers/user')
 const ContactRouter = require('./routers/contact')
-const AddRouter = require('./routers/addform')
+const AddRouter = require('./routers/cyberSecForm')
 const WebRouter = require('./routers/webForm')
+const MobileDevFormRouter = require('./routers/mobileDevForm')
 const CateRouter = require('./routers/categoryForm')
 
 
@@ -30,6 +31,7 @@ app.use('/user', UserRouter)
 app.use('/contact', ContactRouter)
 app.use('/addform',AddRouter)
 app.use('/webForm',WebRouter)
+app.use('/mobileDevForm',MobileDevFormRouter)
 app.use('/categoryForm',CateRouter)
 
 

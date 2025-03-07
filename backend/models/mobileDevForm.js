@@ -28,4 +28,4 @@ const webFormSchema = new Schema({
     
 });
 
-module.exports = model('webForm',webFormSchema);
+module.exports = model('MobileDevForm',webFormSchema);

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const Model = require('../models/addform');
+const Model = require('../models/mobileDevForm');
 
 router.post('/add',(req,res) =>{
     console.log(req.body)

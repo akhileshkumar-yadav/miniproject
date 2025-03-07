@@ -7,6 +7,7 @@ const CategoryForm = () => {
     const categoryForm = useFormik({
         initialValues: {
             title: '',
+            route:'',
             image: '',
             Description:'',
 
@@ -20,7 +21,7 @@ const CategoryForm = () => {
                     console.log(response.status)
                     resetForm()
                     toast.success('addform  info add successfully')
-                    // router.push('/')
+                    router.push('/')
 
                 }).catch((err) => {
                     console.log(err);
@@ -49,6 +50,18 @@ const CategoryForm = () => {
                                         placeholder='Title'
                                         onChange={categoryForm.handleChange}
                                         value={categoryForm.values.title}
+                                        className='border w-full text-gray-100  mb-5 bg-transparent pl-5 p-1 rounded-md'
+                                    />
+                                </div>
+                                <div className='w-full'>
+                                    <label className='block pl-5 text-gray-100 pb-1' htmlFor="route">Route</label>
+                                    <input
+                                        type="text"
+                                        id='route'
+                                        name='route'
+                                        placeholder='Route'
+                                        onChange={categoryForm.handleChange}
+                                        value={categoryForm.values.route}
                                         className='border w-full text-gray-100  mb-5 bg-transparent pl-5 p-1 rounded-md'
                                     />
                                 </div>

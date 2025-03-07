@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import React from 'react'
 import axios from 'axios';
 import toast from 'react-hot-toast';
-const AddForm = () => {
+const MobileDev = () => {
     const webForm = useFormik({
         initialValues: {
             title: '',
@@ -38,7 +38,7 @@ const AddForm = () => {
             console.log(values);
             // resetForm()
             // toast.success('signup successfull')
-            axios.post('http://localhost:5000/webForm/add', values)
+            axios.post('http://localhost:5000/mobileDevForm/add', values)
                 .then((response) => {
                     console.log(response.status)
                     resetForm()
@@ -355,7 +355,7 @@ const AddForm = () => {
     )
 }
 
-export default AddForm
+export default MobileDev
 
 
 

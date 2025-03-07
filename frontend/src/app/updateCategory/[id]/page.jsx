@@ -62,6 +62,18 @@ const UpdateCategory = () => {
                                                 />
                                             </div>
                                             <div className='w-full'>
+                                                <label className='block pl-5 text-gray-100 pb-1' htmlFor="Route">Route</label>
+                                                <input
+                                                    type="text"
+                                                    id='Route'
+                                                    name='Route'
+                                                    placeholder='Route'
+                                                    onChange={updateCategory.handleChange}
+                                                    value={updateCategory.values.Route}
+                                                    className='border w-full text-gray-100  mb-5 bg-transparent pl-5 p-1 rounded-md'
+                                                />
+                                            </div>
+                                            <div className='w-full'>
                                                 <label className='block pl-5 text-gray-100 pb-1' htmlFor="image">image</label>
                                                 <input
                                                     type="text"
@@ -86,8 +98,8 @@ const UpdateCategory = () => {
 
                                                 </textarea>
                                             </div>
-                                             
-                                            
+
+
                                         </div>
                                         <div className=' flex items-center justify-center  mt-3'>
                                             <button type='submit' className='bg-orange-400 p-1 w-[40%] hover:bg-orange-500 rounded-3xl mb-5 text-white text-lg font-semibold '> Submit</button>

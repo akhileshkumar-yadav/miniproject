@@ -521,7 +521,7 @@ const page = () => {
         <h4 className="text-xl md:text-3xl font-semibold text-gray-800 dark:text-neutral-200">
           10+
         </h4>
-        <h4 className={classess.h}>
+        <h4 >
           Tailwind CSS Plugins
         </h4>
       </div>

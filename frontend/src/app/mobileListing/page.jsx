@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-const CategoryListing = () => {
+const MobileListing = () => {
   // const settings = {
   //   dots: true,
   //   infinite: true,
@@ -27,7 +27,7 @@ const CategoryListing = () => {
   const [filterListing, setFilterListing] = useState([])
 
   const fetchRoadmapListing = async () => {
-    const res = await fetch("http://localhost:5000/categoryForm/getall");
+    const res = await fetch("http://localhost:5000/mobileDevForm/getall");
 
     console.log(res.status);
 
@@ -36,7 +36,6 @@ const CategoryListing = () => {
     if (res.status === 200) {
       // const data = await res.json();
       console.log(data);
-      
       setListing(data);
       setFilterListing(data)
       console.log(filterListing);
@@ -269,8 +268,7 @@ const CategoryListing = () => {
                         {/* <h1 className="font-semibold text-md px-3 ">{item.title}</h1> */}
 
                         <div className="flex mt-4 px-3">
-                          
-                          <Link className="" href={'/'+item.route}>
+                          <Link className="" href={'/viewPage/' + item._id}>
                             <button className="animate-pulse mx-auto font-medium hover:bg-pink-500 bg-pink-400 rounded-lg px-2 py-1">
                               View more
                             </button>
@@ -293,4 +291,4 @@ const CategoryListing = () => {
   )
 }
 
-export default CategoryListing
+export default MobileListing

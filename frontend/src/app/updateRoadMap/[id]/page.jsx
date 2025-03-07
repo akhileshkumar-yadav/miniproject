@@ -86,20 +86,7 @@ const UpdateRoadmap = () => {
 
                                                 </textarea>
                                             </div>
-                                            <div>
-                                                <label className='block pl-5 text-gray-100 pb-1' htmlFor="">Description</label>
-
-                                                <textarea
-                                                    id='Description'
-                                                    name='Description'
-                                                    type="text"
-                                                    placeholder='Description'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.Description}
-                                                    className='border w-full text-gray-100  mb-5 bg-transparent pl-5 p-1 rounded-md'
-                                                >
-                                                </textarea>
-                                            </div>
+                                           
                                             <div>
                                                 <label className='block pl-5 text-gray-100 pb-1' htmlFor="">What</label>
                                                 <input
@@ -268,16 +255,7 @@ const UpdateRoadmap = () => {
                                                 </li>
                                             </div>
                                             <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=' '>
-                                                    <input
-                                                        type="text"
-                                                        id='heading'
-                                                        name='heading1'
-                                                        placeholder='Head1'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading1}
-                                                        className='pl-5 text-gray-100 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
+                                                
                                                 <ol className=' '>
                                                     <input
                                                         type="text"
@@ -290,16 +268,7 @@ const UpdateRoadmap = () => {
                                                 </ol>
                                             </li>
                                             <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading2'
-                                                        name='heading2'
-                                                        placeholder='Head2'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading2}
-                                                        className='pl-5 bg-transparent text-gray-100 w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
+                                                
                                                 <ol className=''>
                                                     <input
                                                         type="text"
@@ -312,16 +281,7 @@ const UpdateRoadmap = () => {
                                                 </ol>
                                             </li>
                                             <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading3'
-                                                        name='heading3'
-                                                        placeholder='Head3'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading3}
-                                                        className='pl-5 bg-transparent w-full text-gray-100 mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
+                                               
                                                 <ol className=''>
                                                     <input
                                                         type="text"
@@ -334,16 +294,7 @@ const UpdateRoadmap = () => {
                                                 </ol>
                                             </li>
                                             <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading4'
-                                                        name='heading4'
-                                                        placeholder='Head4'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading4}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
+                                                
                                                 <ol className=''>
                                                     <input
                                                         type="text"
@@ -356,16 +307,7 @@ const UpdateRoadmap = () => {
                                                 </ol>
                                             </li>
                                             <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading5'
-                                                        name='heading5'
-                                                        placeholder='Head5'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading5}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
+                                                
                                                 <ol className=''>
                                                     <input
                                                         type="text"
@@ -377,188 +319,11 @@ const UpdateRoadmap = () => {
                                                         className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
                                                 </ol>
                                             </li>
-                                            <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading6'
-                                                        name='heading6'
-                                                        placeholder='Head6'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading6}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='step6'
-                                                        name='step6'
-                                                        placeholder='step6'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.step6}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-                                            </li>
-                                            <li className=' mt-3 list-decimal text-gray-100  w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='heading7'
-                                                        name='heading7'
-                                                        placeholder='Head7'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading7}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='step7'
-                                                        name='step7'
-                                                        placeholder='step7'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.step7}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-                                            </li>
-                                            <li className=' mt-3 list-decimal text-gray-100 w-full '>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='step8'
-                                                        name='head8'
-                                                        placeholder='Head8'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.heading8}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-                                                <ol className=''>
-                                                    <input
-                                                        type="text"
-                                                        id='step8'
-                                                        name='step8'
-                                                        placeholder='step8'
-                                                        onChange={updateRoadForm.handleChange}
-                                                        value={updateRoadForm.values.step8}
-                                                        className='pl-5 bg-transparent w-full mb-4 p-1 text-xl font-semibold border rounded' />
-                                                </ol>
-
-                                            </li>
+                                            
+                                            
+                                            
                                         </div>
-                                        <div className='flex flex-row'>
-                                            <div className=' pl-2 pt-3 font-semibold text-xl '>
-                                                <label htmlFor="" className='mx-4 block text-gray-100'>RoadmapName</label>
-                                                <input
-                                                    type="text"
-                                                    name="name"
-                                                    id="name"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.name}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-
-                                            </div>
-                                            <div className=' pl-2 pt-3 font-semibold text-xl   '>
-                                                <label htmlFor="" className='mx-4 block text-gray-100'>Head</label>
-                                                <input
-                                                    type="text"
-                                                    name="heading11"
-                                                    id="heading11"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading11}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading12"
-                                                    id="heading12"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading12}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading13"
-                                                    id="heading13"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading13}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading14"
-                                                    id="heading14"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading14}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading15"
-                                                    id="heading15"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading15}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading16"
-                                                    id="heading16"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading16}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading17"
-                                                    id="heading17"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading17}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading18"
-                                                    id="heading18"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading18}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading19"
-                                                    id="heading19"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading19}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading20"
-                                                    id="heading20"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading20}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading21"
-                                                    id="heading21"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading21}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-                                                <input
-                                                    type="text"
-                                                    name="heading22"
-                                                    id="heading22"
-                                                    placeholder='Link'
-                                                    onChange={updateRoadForm.handleChange}
-                                                    value={updateRoadForm.values.heading22}
-                                                    className='border text-gray-100 w-[70%] mx-4  mb-3 bg-transparent pl-5 p-1 rounded-md' />
-
-                                            </div>
-                                        </div>
+                                       
                                         <div className=' flex items-center justify-center  mt-3'>
                                             <button type='submit' className='bg-orange-400 p-1 w-[40%] hover:bg-orange-500 rounded-3xl mb-5 text-white text-lg font-semibold '> Submit</button>
 
